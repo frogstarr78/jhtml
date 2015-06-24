@@ -1,0 +1,14 @@
+DOCTYPE('html'),
+html(
+	head(
+		title('Hello World')
+	),
+	body(id='body', 
+		p(class='content', 'Hello World'),
+		canvas(id='canvas'),
+		hr(),
+		div(class='content', id='content'),
+		div(class='content2'),
+		script()
+	)
+)

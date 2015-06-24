@@ -1,0 +1,26 @@
+DOCTYPE('html'),
+html(
+	head(
+		title('Hello ' + who),
+		script(src='//code.jquery.com/jquery-migrate-1.2.1.min.js')
+	),
+	body(id='body', 
+		p(class='content', 'Say hello to ' + who + ' everyone.'),
+		canvas(id='canvas' + i),
+		hr(),
+		CDATA('something here too'),
+		//just a comment,
+		div(class='content', id='content'),
+		ol(
+			li('apples'),
+			li('oranges'),
+			li('pears'),
+			li('bananas')
+		),
+		/* this
+		and
+		that */
+		div(class='content2'),
+		script("$('#content').text('Hello " + who + "');")
+	)
+)

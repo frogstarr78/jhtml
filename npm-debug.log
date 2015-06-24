@@ -1,0 +1,168 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/home/scott/bin/npm', 'install', '--save', 'minimist' ]
+2 info using npm@2.7.5
+3 info using node@v0.12.1
+4 warn package.json jhtml@1.0.0 No repository field.
+5 warn package.json jhtml@1.0.0 No README data
+6 warn package.json jhtml@1.0.0 specifying dependencies as array is deprecated
+7 verbose install minimist is installed as 1.1.1
+8 silly cache add args [ 'minimist', null ]
+9 verbose cache add spec minimist
+10 silly cache add parsed spec { raw: 'minimist',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'minimist',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: '*',
+10 silly cache add   type: 'range' }
+11 verbose addNamed minimist@*
+12 silly addNamed semver.valid null
+13 silly addNamed semver.validRange *
+14 silly addNameRange { name: 'minimist', range: '*', hasData: false }
+15 silly mapToRegistry name minimist
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry uri https://registry.npmjs.org/minimist
+19 verbose addNameRange registry:https://registry.npmjs.org/minimist not in flight; fetching
+20 verbose request uri https://registry.npmjs.org/minimist
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 14:40:35
+23 verbose request id b6055005d7f0f91b
+24 verbose etag "9WNOP61IYTRDY6M9CE38XTBCS"
+25 http request GET https://registry.npmjs.org/minimist
+26 http 304 https://registry.npmjs.org/minimist
+27 silly get cb [ 304,
+27 silly get   { date: 'Wed, 24 Jun 2015 21:40:35 GMT',
+27 silly get     via: '1.1 varnish',
+27 silly get     'cache-control': 'max-age=60',
+27 silly get     etag: '"9WNOP61IYTRDY6M9CE38XTBCS"',
+27 silly get     age: '54',
+27 silly get     connection: 'keep-alive',
+27 silly get     'x-served-by': 'cache-lax1434-LAX',
+27 silly get     'x-cache': 'HIT',
+27 silly get     'x-cache-hits': '5',
+27 silly get     'x-timer': 'S1435182035.776287,VS0,VE0',
+27 silly get     vary: 'Accept' } ]
+28 verbose etag https://registry.npmjs.org/minimist from cache
+29 verbose get saving minimist to /home/scott/.npm/registry.npmjs.org/minimist/.cache.json
+30 silly addNameRange number 2 { name: 'minimist', range: '*', hasData: true }
+31 silly addNameRange versions [ 'minimist',
+31 silly addNameRange   [ '0.0.0',
+31 silly addNameRange     '0.0.1',
+31 silly addNameRange     '0.0.2',
+31 silly addNameRange     '0.0.3',
+31 silly addNameRange     '0.0.4',
+31 silly addNameRange     '0.0.5',
+31 silly addNameRange     '0.0.6',
+31 silly addNameRange     '0.0.7',
+31 silly addNameRange     '0.0.8',
+31 silly addNameRange     '0.0.9',
+31 silly addNameRange     '0.0.10',
+31 silly addNameRange     '0.1.0',
+31 silly addNameRange     '0.2.0',
+31 silly addNameRange     '1.0.0',
+31 silly addNameRange     '1.1.0',
+31 silly addNameRange     '1.1.1' ] ]
+32 verbose addNamed minimist@1.1.1
+33 silly addNamed semver.valid 1.1.1
+34 silly addNamed semver.validRange 1.1.1
+35 silly cache afterAdd minimist@1.1.1
+36 verbose afterAdd /home/scott/.npm/minimist/1.1.1/package/package.json not in flight; writing
+37 verbose afterAdd /home/scott/.npm/minimist/1.1.1/package/package.json written
+38 silly install resolved [ { name: 'minimist',
+38 silly install resolved     version: '1.1.1',
+38 silly install resolved     description: 'parse argument options',
+38 silly install resolved     main: 'index.js',
+38 silly install resolved     devDependencies: { covert: '^1.0.0', tap: '~0.4.0', tape: '^3.5.0' },
+38 silly install resolved     scripts: { test: 'tap test/*.js', coverage: 'covert test/*.js' },
+38 silly install resolved     testling: { files: 'test/*.js', browsers: [Object] },
+38 silly install resolved     repository: { type: 'git', url: 'git://github.com/substack/minimist.git' },
+38 silly install resolved     homepage: 'https://github.com/substack/minimist',
+38 silly install resolved     keywords: [ 'argv', 'getopt', 'parser', 'optimist' ],
+38 silly install resolved     author:
+38 silly install resolved      { name: 'James Halliday',
+38 silly install resolved        email: 'mail@substack.net',
+38 silly install resolved        url: 'http://substack.net' },
+38 silly install resolved     license: 'MIT',
+38 silly install resolved     gitHead: 'bc9d1c466541eb52ae85e6682a4b809f4c32fe1f',
+38 silly install resolved     bugs: { url: 'https://github.com/substack/minimist/issues' },
+38 silly install resolved     _id: 'minimist@1.1.1',
+38 silly install resolved     _shasum: '1bc2bc71658cdca5712475684363615b0b4f695b',
+38 silly install resolved     _from: 'minimist@*',
+38 silly install resolved     _npmVersion: '2.3.0',
+38 silly install resolved     _nodeVersion: '0.12.0',
+38 silly install resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+38 silly install resolved     maintainers: [ [Object] ],
+38 silly install resolved     dist:
+38 silly install resolved      { shasum: '1bc2bc71658cdca5712475684363615b0b4f695b',
+38 silly install resolved        tarball: 'http://registry.npmjs.org/minimist/-/minimist-1.1.1.tgz' },
+38 silly install resolved     directories: {},
+38 silly install resolved     _resolved: 'https://registry.npmjs.org/minimist/-/minimist-1.1.1.tgz',
+38 silly install resolved     readme: 'ERROR: No README data found!' } ]
+39 info install minimist@1.1.1 into /home/scott/vcs/git/jhtml
+40 info installOne minimist@1.1.1
+41 verbose installOne of minimist to /home/scott/vcs/git/jhtml not in flight; installing
+42 verbose lock using /home/scott/.npm/_locks/minimist-359c10c5001e8067.lock for /home/scott/vcs/git/jhtml/node_modules/minimist
+43 silly install write writing minimist 1.1.1 to /home/scott/vcs/git/jhtml/node_modules/minimist
+44 silly cache addNamed cb minimist@1.1.1
+45 verbose unbuild node_modules/minimist
+46 info preuninstall minimist@1.1.1
+47 info uninstall minimist@1.1.1
+48 verbose unbuild rmStuff minimist@1.1.1 from /home/scott/vcs/git/jhtml/node_modules
+49 info postuninstall minimist@1.1.1
+50 silly gentlyRm /home/scott/vcs/git/jhtml/node_modules/minimist is being purged from base /home/scott/vcs/git/jhtml
+51 verbose gentlyRm don't care about contents; nuking /home/scott/vcs/git/jhtml/node_modules/minimist
+52 silly vacuum-fs purging /home/scott/vcs/git/jhtml/node_modules/minimist
+53 silly vacuum-fs quitting because other entries in /home/scott/vcs/git/jhtml/node_modules
+54 verbose tar unpack /home/scott/.npm/minimist/1.1.1/package.tgz
+55 verbose tar unpacking to /home/scott/vcs/git/jhtml/node_modules/minimist
+56 silly gentlyRm /home/scott/vcs/git/jhtml/node_modules/minimist is being purged
+57 verbose gentlyRm don't care about contents; nuking /home/scott/vcs/git/jhtml/node_modules/minimist
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm extractEntry LICENSE
+61 silly gunzTarPerm extractEntry index.js
+62 silly gunzTarPerm extractEntry .travis.yml
+63 silly gunzTarPerm extractEntry example/parse.js
+64 silly gunzTarPerm extractEntry readme.markdown
+65 silly gunzTarPerm extractEntry test/all_bool.js
+66 silly gunzTarPerm extractEntry test/default_bool.js
+67 silly gunzTarPerm extractEntry test/dotted.js
+68 silly gunzTarPerm extractEntry test/long.js
+69 silly gunzTarPerm extractEntry test/dash.js
+70 silly gunzTarPerm extractEntry test/parse.js
+71 silly gunzTarPerm extractEntry test/parse_modified.js
+72 silly gunzTarPerm extractEntry test/short.js
+73 silly gunzTarPerm extractEntry test/stop_early.js
+74 silly gunzTarPerm extractEntry test/unknown.js
+75 silly gunzTarPerm extractEntry test/bool.js
+76 silly gunzTarPerm extractEntry test/whitespace.js
+77 silly gunzTarPerm extractEntry test/num.js
+78 info preinstall minimist@1.1.1
+79 silly install resolved []
+80 verbose about to build /home/scott/vcs/git/jhtml/node_modules/minimist
+81 info build /home/scott/vcs/git/jhtml/node_modules/minimist
+82 verbose linkStuff [ false, false, false, '/home/scott/vcs/git/jhtml/node_modules' ]
+83 info linkStuff minimist@1.1.1
+84 verbose linkBins minimist@1.1.1
+85 verbose linkMans minimist@1.1.1
+86 verbose rebuildBundles minimist@1.1.1
+87 info install minimist@1.1.1
+88 info postinstall minimist@1.1.1
+89 verbose unlock done using /home/scott/.npm/_locks/minimist-359c10c5001e8067.lock for /home/scott/vcs/git/jhtml/node_modules/minimist
+90 verbose saving { minimist: '^1.1.1' }
+91 verbose stack TypeError: Object.keys called on non-object
+91 verbose stack     at Function.keys (native)
+91 verbose stack     at module.exports (/home/scott/lib/node_modules/npm/node_modules/sorted-object/lib/sorted-object.js:6:12)
+91 verbose stack     at /home/scott/lib/node_modules/npm/lib/install.js:486:20
+91 verbose stack     at evalmachine.<anonymous>:336:14
+91 verbose stack     at /home/scott/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:102:5
+91 verbose stack     at FSReqWrap.oncomplete (evalmachine.<anonymous>:99:15)
+92 verbose cwd /home/scott/vcs/git/jhtml
+93 error Linux 3.18.7-gentoo
+94 error argv "node" "/home/scott/bin/npm" "install" "--save" "minimist"
+95 error node v0.12.1
+96 error npm  v2.7.5
+97 error Object.keys called on non-object
+98 error If you need help, you may report this error at:
+98 error     <https://github.com/npm/npm/issues>
+99 verbose exit [ 1, true ]
